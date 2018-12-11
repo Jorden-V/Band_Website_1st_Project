@@ -7,14 +7,8 @@
 
 
 /*--------------------------------------------Navbar*/
-
-.navbar-right {
-
-    margin: 0;
-}
-
-.navbar-right li {
-    padding: 15px;
+.navbar-right li{
+    padding-top: 10px;
     background-color: #222930;
 }
 
@@ -37,8 +31,25 @@
     margin-top: 22px;
 }
 
-.navbar-collapse{
+
+/*--------------------------------------------Contact-page*/
+
+.contact-image{
+    text-align: center;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 50%;
     
+}
+
+button[type=submit]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #337ab7;
+    color: #fafafa;
 }
 
 /*-------------------------------------------- Footer*/
@@ -94,4 +105,16 @@ footer li a i {
     color: #fafafa;
     text-align: center;
     letter-spacing: 30px
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 70%;
+    
 }
