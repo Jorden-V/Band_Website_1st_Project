@@ -7,7 +7,8 @@
 
 
 /*--------------------------------------------Navbar*/
-.navbar-right li{
+
+.navbar-right li {
     padding-top: 10px;
     background-color: #222930;
 }
@@ -33,30 +34,67 @@
 
 /*--------------------------------------------Body*/
 
-.weareback{
-    background-color: black;
-    width: 250px;
-    height: 250px
+.main-section {
     margin: 0;
-    
 }
+
+.wrapper {
+    overflow: auto;
+}
+
+.bandimage1 {
+    text-align: center;
+
+}
+
+.bandimage1 img {
+    border-radius: 12px;
+    margin: 0px 0px 40px 0px;
+
+}
+
+.bandimage1 p {
+    font-size: 20px;
+
+}
+
+.weareback-header{
+    margin-bottom: 20px;
+}
+
+.weareback-header h1 {
+    text-align: center;
+    text-shadow: 1px 2px white;
+}
+
+.band-header{
+    text-align: center;
+}
+
+.member-info{
+    text-align: center;
+    display: inline-block;
+}
+
+
+
 
 
 
 /*--------------------------------------------Contact-page*/
 
-.contact-image{
+.contact-image {
     text-align: center;
 }
 
 .center-form {
     padding-top: 10px;
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 50%;
-    
+
 }
 
-button[type=submit]{
+button[type=submit] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #337ab7;
@@ -72,7 +110,7 @@ button[type=submit]{
     text-align: center;
 }
 
-.mobile-social{
+.mobile-social {
     padding-top: 16.5px;
 }
 
@@ -98,6 +136,14 @@ footer li a i {
 
 /*---------------------------------------------media query*/
 
+@media (min-width: 768px) {
+    .bandimage1 img {
+        float: right;
+        margin: 0px 0px 40px 80px;
+        width: 400px;
+    }
+}
+
 @media (max-width: 768px) {
     .footer-contact {
         visibility: hidden;
@@ -111,21 +157,23 @@ footer li a i {
         text-align: center;
 
     }
-    
+
     .footer li a i {
-    color: #fafafa;
-    text-align: center;
-    letter-spacing: 30px
-}
+        color: #fafafa;
+        text-align: center;
+        letter-spacing: 30px
+    }
 
-.navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 
-.center-form {
-    padding-top: 10px;
-    margin:0 auto;
-    max-width: 70%;
-    
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 70%;
+
+    }
+
 }
