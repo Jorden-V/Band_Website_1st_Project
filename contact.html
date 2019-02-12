@@ -38,40 +38,96 @@
     </div>
   </nav>
   <section class="container-fluid ">
-    <div class="contact-image">
-      <img src="assets/images/cover3.jpg"></img>
-    </div>
-    <div class="row bg-color-contact">
-      <div>
+    <div class="row">
+      <div class="col-xs-12 contact-header">
         <h3 class="contact-heading uppercase text-center">Want to see us live?</h3>
         <h5 class="uppercase text-center">Send us a request below</h5>
       </div>
-      <div class="center-form">
-        <form>
-          <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-          <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-          <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Event details" required></textarea>
-          <button type="submit" class="btn btn-secondary center-block">Send booking request</button>
+    </div>
+    <div class="row center-form">
+      <div class="col-xs-12 col-md-6">
+        <header>
+          Booking Enquiry Form
+        </header>
+        <fieldset>
+          <form>
+            <div class="input-style">
+              <input type="text" name="name" class="form-control" id="fullname" placeholder="First Name" required/>
+            </div>
+            <div class="input-style">
+              <input type="text" name="name" class="form-control" id="fullname" placeholder="Surname" required/>
+            </div>
+            <div class="input-style">
+              <input type="text" name="txtTelephone" class="form-control" id="txtTelephone" placeholder="Contact Number" required/>
+            </div>
+            <div class="input-style">
+              <input type="text" name="txtCompany" class="form-control" id="txtCompany" placeholder="Company or Venue name" required/>
+            </div>
+            <div class="input-style">
+              <input type="text " name="emailaddress " class="form-control " id="emailaddress " placeholder="Email " required/>
+            </div>
+            <div class="row input-style">
+              <label for="date1" class="col-sm-2 col-md-2 control-label hidden-xs">Date:</label>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <input class="form-control date1" type="date" id="date1" name="date1">
+              </div>
+              <label for="time" class="col-sm-1 col-md-3 control-label control-label-time hidden-xs">Time:</label>
+              <div class="col-xs-12 col-sm-3">
+                <select class="form-control time" name="time" id="time" required="">
+                                    <option disabled="" selected="" value="">Select the time</option>
+                                    <option>12:00</option>
+                                    <option>14:00</option>
+                                    <option>15:00</option>
+                                    <option>16:00</option>
+                                    <option>17:00</option>
+                                    <option>18:00</option>
+                                    <option>19:00</option>
+                                    <option>20:00</option>
+                                    <option>21:00</option>
+                                    <option>22:00</option>
+                                    <option>23:00</option>
+                                </select>
+              </div>
+            </div>
+            <div class="input-style">
+              <input type="text " name="txtEventType " class="form-control " id="txtEventType " placeholder="Event Type (Wedding etc) " required/>
+            </div>
+            <div class="input-style">
+              <input type="text " name="txtNumOfGuests " class="form-control " id="txtNumOfGuests " placeholder="No. of Guests " required/>
+            </div>
+            <div class="input-style">
+              <textarea rows="5 " name="projectsummary " class="form-control " id="projectsummary " placeholder="Other Info " required></textarea>
+            </div>
+        </fieldset>
+        <footer class="form-footer">
+          <input type="submit" name="btnSendEnquiry" value="Send">
+        </footer>
+
+
         </form>
+
+      </div>
+      <div class="col-xs-12 col-md-6 customer-quotes ">
+
       </div>
     </div>
   </section>
-  <footer class="container-fluid">
-    <div class="row main-footer">
+  <footer class="container-fluid ">
+    <div class="row main-footer ">
 
 
-      <div class="col-xs-12 mobile-social">
-        <ul class="list-inline social-links">
-          <li><a target="_blank" href="#"><i class="fa fa-facebook hvr-grow"></i></a></li>
-          <li><a target="_blank" href="#"><i class="fa fa-twitter hvr-grow"></i></a></li>
-          <li><a target="_blank" href="#"><i class="fa fa-instagram hvr-grow"></i></a></li>
-          <li><a target="_blank" href="#"><i class="fa fa-youtube hvr-grow"></i></a></li>
+      <div class="col-xs-12 mobile-social ">
+        <ul class="list-inline social-links ">
+          <li><a target="_blank " href="# "><i class="fa fa-facebook hvr-grow "></i></a></li>
+          <li><a target="_blank " href="# "><i class="fa fa-twitter hvr-grow "></i></a></li>
+          <li><a target="_blank " href="# "><i class="fa fa-instagram hvr-grow "></i></a></li>
+          <li><a target="_blank " href="# "><i class="fa fa-youtube hvr-grow "></i></a></li>
         </ul>
       </div>
     </div>
   </footer>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin=" anonymous "></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
 
 </body>
 

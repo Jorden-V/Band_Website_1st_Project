@@ -202,15 +202,59 @@ hr {
 
 /*--------------------------------------------Contact-page*/
 
-.contact-image {
+.contact-header {
     text-align: center;
+}
+
+.customer-quotes {}
+
+.event-date {
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.date-lable {
+    border-radius: 0;
+    font-size: 100%;
+    text-align: left;
+    white-space: normal;
+    color: inherit;
 }
 
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 50%;
 
+}
+
+.center-form header {
+    display: block;
+    padding: 10px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background: rgba(248, 248, 248, .9);
+    font-size: 20px;
+    font-weight: 300;
+    color: #232323;
+}
+
+.center-form fieldset {
+    display: block;
+    padding: 15px 30px 5px;
+    border: none;
+    background: rgba(255, 255, 255, .9);
+}
+
+.form-footer {
+    display: block;
+    padding: 5px 30px 15px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    background: rgba(248, 248, 248, .9);
+}
+
+.center-form .input-style {
+    margin-bottom: 5px;
 }
 
 button[type=submit] {
