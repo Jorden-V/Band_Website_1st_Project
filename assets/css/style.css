@@ -81,7 +81,7 @@ body {
 }
 
 .enter-image h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-style: italic;
     background-color: #222930;
@@ -164,7 +164,7 @@ body {
 }
 
 .member-info h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-style: italic;
 }
@@ -206,7 +206,23 @@ hr {
     text-align: center;
 }
 
-.customer-quotes {}
+.contact-header h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.contact-header h5 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.customer-quotes p {
+    font-size: 17px;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+}
 
 .event-date {
     display: block;
@@ -257,6 +273,10 @@ hr {
     margin-bottom: 5px;
 }
 
+.quotes {
+    margin-top: 10px;
+}
+
 button[type=submit] {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -274,6 +294,12 @@ button[type=submit] {
     text-align: center;
     color: #eeeeee;
     padding-top: 10px;
+}
+
+.tour-locations p {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .tour-locations a {
