@@ -2,18 +2,31 @@
 <html lang="en">
 
 <head>
-  <title>Contact us</title>
+
+  <!-- Bootsrap links-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+
+  <!-- Hover.css link-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+
+  <!-- My CSS link-->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+  <!-- Google Fonts link-->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+
+  <title>Contact us</title>
+
 </head>
 
 <body>
+
+  <!-- Bootstrap Navbar-->
+
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -35,6 +48,9 @@
       </div>
     </div>
   </nav>
+
+  <!-- Section header-->
+
   <section class="container-fluid ">
     <div class="row">
       <div class="col-xs-12 contact-header">
@@ -42,11 +58,17 @@
         <h5 class="uppercase text-center">Send us a request below</h5>
       </div>
     </div>
+
+    <!-- Contact header-->
+
     <div class="row center-form">
       <div class="col-xs-12 col-md-6">
         <header>
           Booking Enquiry Form
         </header>
+
+        <!-- Contact form-->
+
         <fieldset>
           <form>
             <div class="input-style">
@@ -96,48 +118,56 @@
             <div class="input-style">
               <textarea rows="5 " name="projectsummary " class="form-control " id="projectsummary " placeholder="Other Info "></textarea>
             </div>
-        
-        <footer class="form-footer">
-          <input type="submit" name="btnSendEnquiry" value="Send">
-        </footer>
-           </form>
-        </fieldset>
 
+            <footer class="form-footer">
+              <input type="submit" onClick="conf()" name="btnSendEnquiry" value="Send">
+            </footer>
+          </form>
+        </fieldset>
       </div>
+
+      <!-- Testimonials-->
+
       <div class="col-xs-12 col-md-6 customer-quotes ">
-<section class="quotes">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/images/couple.jpg" alt="happy-couple" class="img-circle media-object" height=100 width=100>
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="quote">
-                                    <p>"The band was exemplary. Nothing was too much trouble. Their incredible talent & execution of that talent is unique. They tailored the set to suit us. He made the ceremony & reception & set the tone for the day & made us proud. So impressive & he's the stand out memory from our day apart from saying I do! They surpassed everything we could have hoped for & was the talking point of the day & is still the legacy of the wedding for our guests & many have requested his details for their parties. We cannot recommend this lovely band enough. Book with confidence & book now!"</p>
-                                    <footer>Jill & David - The Spread Eagle Hotel & Spa </footer>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 quotes">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/images/managers.jpeg" alt="team-members" class="img-circle media-object" height=100 width=100>
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="quote">
-                                    <p>"The Monkees, we would like to say a huge thank you for an amazing performance at our Conference. Everyone was blown away by your vocals and that we were able to do song requests. Everyone was raving about it the following day. We definitely recommend The Monkees for any event!! They bring an amazing presence and energy to the stage and are overall great performers!!" </p>
-                                    <footer>Managment Team - The Big Hotel </footer>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
+        <section class="quotes">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="media">
+                <div class="media-left">
+                  <img src="assets/images/couple.jpg" alt="happy-couple" class="img-circle media-object" height=100 width=100>
                 </div>
-            </section>
+                <div class="media-body">
+                  <blockquote class="quote">
+                    <p>"The band was exemplary. Nothing was too much trouble. Their incredible talent & execution of that talent is unique. They tailored the set to suit us. He made the ceremony & reception & set the tone for the day & made us proud. So
+                      impressive & he's the stand out memory from our day apart from saying I do! They surpassed everything we could have hoped for & was the talking point of the day & is still the legacy of the wedding for our guests & many have requested
+                      his details for their parties. We cannot recommend this lovely band enough. Book with confidence & book now!"</p>
+                    <footer>Jill & David - The Spread Eagle Hotel & Spa </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 quotes">
+              <div class="media">
+                <div class="media-left">
+                  <img src="assets/images/managers.jpeg" alt="team-members" class="img-circle media-object" height=100 width=100>
+                </div>
+                <div class="media-body">
+                  <blockquote class="quote">
+                    <p>"The Monkees, we would like to say a huge thank you for an amazing performance at our Conference. Everyone was blown away by your vocals and that we were able to do song requests. Everyone was raving about it the following day. We
+                      definitely recommend The Monkees for any event!! They bring an amazing presence and energy to the stage and are overall great performers!!" </p>
+                    <footer>Managment Team - The Big Hotel </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </section>
+
+  <!-- Footer-->
+
   <footer class="container-fluid ">
     <div class="row main-footer ">
 
