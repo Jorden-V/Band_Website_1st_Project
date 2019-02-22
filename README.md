@@ -1,12 +1,12 @@
 # Band website - The Monkees
 
-This is a front-end only website for the band 'The Monkees'. The purpose of this website is to target their primary audiance which is thier fans as well as potential fans enabling them to see and hear clips from their back catalog and any new material as it becomes available.
-I was also tasked with giving the band the ability to showcase their music and publicise their availability to perofrm at events such as weddings and Christmas parties.
-The final element was to aid the band in creating their social media presnece by linking to their social media platforms such as Facebook and Twitter.
+This is a front-end only website for the band 'The Monkees'. The purpose of this website is to target their primary audience which is their fans as well as potential fans enabling them to see and hear clips from their back catalogue and any new material as it becomes available.
+I was also tasked with giving the band the ability to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
+The final element was to aid the band in creating their social media presence by linking to their social media platforms such as Facebook and Twitter.
 
 Website link below:
 
-https://jordenci.github.io/first-milestone-project/.
+https://jordenci.github.io/first-milestone-project/
  
 ## UX
  
@@ -14,24 +14,20 @@ This website was designed for existing and potential fans of the monkees to give
 
 ### User stories
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-
 - As an existing fan I want the ability to book the band out for events so I can have them play at my wedding.
-- As an existing fan I want the ability to follow the band on all avalible social media sites.
+- As an existing fan I want the ability to follow the band on all available social media sites.
 - As a potential fan I want to learn more about the band to see if they are for me.
-- As an existing or potential fan I want the ability to listern to the bands music for enjoyment but also to see if i enjoy it.
+- As an existing or potential fan I want the ability to listen to the bands music for enjoyment but also to see if i enjoy it.
 - As an event planner I need the ability to contact the band to book events for my clients.
 - As a marketing agency we need to be be able to contact the band for oppertunies to promote them.
 
 ## Features
 
-### Existing Features
-
 #### Across the entire site
 
 - Navbar: Allows all users to navigate to any part of the website without the use of browser 'back' and 'forward' buttons.
 - Collapsed Navbar: Gives all users the ability to navigate the site whilst in mobile view without taking up realestate.
-- Social media links: Allows users to follow the band on all social media platforms avalible generating more popularity with the band.
+- Social media links: Allows users to follow the band on all social media platforms available generating more popularity with the band.
 
 #### index.html
 
@@ -55,7 +51,7 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 
 ### Features Left to Implement
 
-In the future i would like to impliment the below features.
+In the future I would like to impliment the below features.
 - The ability to purchase full albums from the site to genetate revenue for the band.
 - Some form of review/trip advisor type funtion where people interested in booking would be able to see multiple reviews on the bands past private performances.
 - A merchandising page where fans can purchase all sorts of band apparel.
