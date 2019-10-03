@@ -6,7 +6,7 @@ The final element was to aid the band in creating their social media presence by
 
 Website link below:
 
-https://jordenci.github.io/first-milestone-project/
+https://jordenci.github.io/Band_Website_1st_Project/
  
 ## UX
  
@@ -159,7 +159,7 @@ I used GitHub Pages to deploy my website by following the steps below:
 
 6. Then from my GitHub repository I have gone to settings, I have selected the master branch, I have saved and the website was published at:
 
-    https://jordenci.github.io/first-milestone-project/ 
+   https://jordenci.github.io/Band_Website_1st_Project/
 
 7. After this was done I have ran regular commits after every important update to the code, and I pushed the changes to GitHub pages.
 
